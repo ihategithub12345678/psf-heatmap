@@ -1,0 +1,51 @@
+Microscope info
+Image		Image4_bead8					
+image's creation	date	2024-10-17 10:22:37					
+	method used	from file creation date					
+Actual image depth		16					
+Microscope type		WideField					
+Objective	NA	1.4					
+	im. refractive index	1.518					
+Channel(s)		Wavelengths		Saturation	sampling (X,Y,Z)		
+		Ex. (nm)	Em. (nm)		Nyquist (µm)	Found (µm)	Nyquist/found ratio
+Channel 0			590.0	none	0.105x0.105x0.317	0.063x0.063x0.06	0.6, 0.6, 0.2
+Bead original coordinates(in pixels)		405.0, 810.0					
+
+Resolution
+Channel	Sig/Backgnd ratio	Dimension	Measured FWHM (µm)	theory (µm)	Fit Goodness	Mes./theory ratio
+Channel 0 (em. 590.0nm)	10.6	X	0.273	0.215	1.0	1.27
+		Y	0.269	0.215	1.0	1.25
+		Z	0.703	0.809	0.98	0.87
+
+Lateral Asymmetry
+Channel	Ratio
+Channel 0 (em. 590.0nm)	0.99
+
+Analysis parameters
+Tool & Operator	Tool	PSF Profiler
+	Versions	MetroloJ_QC v1.3.0, ImageJ v2.14.0/1.54f, Java v1.8.0_322, OS Mac OS X
+	Operator & date	aaa, October 17, 2024 2:11 PM
+data	result folder	/Users/bumozaza/Desktop/20241014/red/Processed/redbead/bead8/
+	Type of saved data	.pdf, .jpg, .xls
+	Input data bit depth	16
+Dimension order		XY-(C)Z
+Discard saturated samples		true
+Beads	Bead detection threshold	Legacy
+	Center detection method	Centroid
+	Discard bead if more than one particle are thresholded	true
+	Background annulus thickness in µm	0.5
+	Background annulus distance to bead edges in µm	0.5
+	Multiple beads in image	true
+	Bead identification method	Using Find Maxima (prominence of 1000.0)
+	Bead size (µm)	0.1
+	Bead crop Factor	10.0
+	Cropped ROI size in µm	2.31x2.31 (using bead size & background annulus parameters)
+	Bead rejection distance to top/bottom   	2.0 µm
+Square Root PSF Image displayed		true
+Tolerance	Applied in this report	true
+	X & Y FWHM ratios valid if below	1.5
+	Z FWHM ratio valid if below	2.0
+
+Analysis log
+image name	creation date	saturation	sampling density	status
+Image4_bead8	2024-10-17 10:22:37	none	correct	analysed
