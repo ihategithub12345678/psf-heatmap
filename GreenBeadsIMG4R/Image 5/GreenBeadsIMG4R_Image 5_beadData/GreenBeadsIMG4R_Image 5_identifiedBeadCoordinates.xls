@@ -1,0 +1,20 @@
+raw bead#	X coordinate (in pixels)	Y coordinate (in pixels)	Z coordinate (in pixels)	status	valid bead#
+raw bead0	392.0	1070.0	89.0	Valid	bead0
+raw bead1	155.0	1063.0	89.0	Valid	bead1
+raw bead2	184.0	751.0	88.0	Valid	bead2
+raw bead3	1155.0	739.0	86.0	Valid	bead3
+raw bead4	818.0	455.0	87.0	too close to another bead	n/a
+raw bead5	1243.0	904.0	87.0	Valid	bead4
+raw bead6	419.0	811.0	89.0	Valid	bead5
+raw bead7	414.0	346.0	87.0	Valid	bead6
+raw bead8	1025.0	547.0	87.0	too close to another bead	n/a
+raw bead9	1007.0	547.0	86.0	too close to another bead	n/a
+raw bead10	130.0	148.0	88.0	Valid	bead7
+raw bead11	661.0	371.0	88.0	too close to another bead	n/a
+raw bead12	166.0	555.0	89.0	Valid	bead8
+raw bead13	778.0	441.0	88.0	too close to another bead	n/a
+raw bead14	930.0	257.0	88.0	too close to another bead	n/a
+raw bead15	669.0	379.0	88.0	too close to another bead	n/a
+raw bead16	267.0	436.0	88.0	Valid	bead9
+raw bead17	122.0	201.0	88.0	Valid	bead10
+raw bead18	923.0	277.0	87.0	too close to another bead	n/a

@@ -1,0 +1,40 @@
+raw bead#	X coordinate (in pixels)	Y coordinate (in pixels)	Z coordinate (in pixels)	status	valid bead#
+raw bead0	949.0	382.0	96.0	Valid	bead0
+raw bead1	351.0	640.0	97.0	Valid	bead1
+raw bead2	487.0	1084.0	97.0	too close to another bead	n/a
+raw bead3	979.0	613.0	95.0	too close to another bead	n/a
+raw bead4	285.0	129.0	97.0	Valid	bead2
+raw bead5	509.0	706.0	95.0	Valid	bead3
+raw bead6	516.0	1047.0	97.0	too close to another bead	n/a
+raw bead7	915.0	750.0	95.0	too close to another bead	n/a
+raw bead8	1085.0	326.0	95.0	Valid	bead4
+raw bead9	566.0	1078.0	96.0	Valid	bead5
+raw bead10	655.0	925.0	98.0	Valid	bead6
+raw bead11	177.0	599.0	97.0	Valid	bead7
+raw bead12	700.0	467.0	96.0	Valid	bead8
+raw bead13	996.0	908.0	96.0	Valid	bead9
+raw bead14	190.0	334.0	96.0	Valid	bead10
+raw bead15	331.0	283.0	96.0	Valid	bead11
+raw bead16	213.0	469.0	96.0	Valid	bead12
+raw bead17	983.0	631.0	97.0	too close to another bead	n/a
+raw bead18	1221.0	980.0	95.0	Valid	bead13
+raw bead19	286.0	427.0	97.0	Valid	bead14
+raw bead20	767.0	999.0	95.0	too close to another bead	n/a
+raw bead21	958.0	730.0	94.0	too close to another bead	n/a
+raw bead22	372.0	500.0	96.0	Valid	bead15
+raw bead23	761.0	997.0	97.0	too close to another bead	n/a
+raw bead24	411.0	536.0	96.0	Valid	bead16
+raw bead25	926.0	768.0	96.0	too close to another bead	n/a
+raw bead26	793.0	1149.0	95.0	Valid	bead17
+raw bead27	628.0	464.0	94.0	Valid	bead18
+raw bead28	347.0	181.0	98.0	Valid	bead19
+raw bead29	979.0	240.0	96.0	Valid	bead20
+raw bead30	714.0	891.0	97.0	Valid	bead21
+raw bead31	982.0	719.0	97.0	too close to another bead	n/a
+raw bead32	370.0	433.0	96.0	Valid	bead22
+raw bead33	1066.0	1076.0	96.0	Valid	bead23
+raw bead34	629.0	188.0	96.0	Valid	bead24
+raw bead35	30.0	466.0	97.0	Valid	bead25
+raw bead36	294.0	56.0	95.0	too close to another bead	n/a
+raw bead37	244.0	352.0	97.0	Valid	bead26
+raw bead38	267.0	14.0	97.0	too close to another bead	n/a

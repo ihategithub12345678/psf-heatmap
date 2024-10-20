@@ -37,26 +37,18 @@ zi_x = griddata((x, y), z_x, (xi, yi), method='cubic')
 zi_y = griddata((x, y), z_y, (xi, yi), method='cubic')
 zi_z = griddata((x, y), z_z, (xi, yi), method='cubic')
 
-zi_x_linear = griddata((x, y), z_x, (xi, yi), method='linear')
-zi_y_linear = griddata((x, y), z_y, (xi, yi), method='linear')
-zi_z_linear = griddata((x, y), z_z, (xi, yi), method='linear')
+fig, axs = plt.subplots(2, 2, figsize=(18, 12))
 
-error_x = np.abs(zi_x - zi_x_linear)
-error_y = np.abs(zi_y - zi_y_linear)
-error_z = np.abs(zi_z - zi_z_linear)
-
-fig, axs = plt.subplots(2, 3, figsize=(18, 12))
-
-def plot_heatmap(ax, zi, title, is_error=False):
+def plot_heatmap(ax, zi, title):
     im = ax.imshow(zi, extent=[min(x), max(x), max(y), min(y)], origin='upper', cmap='viridis')
     ax.set_title(title)
     ax.set_xlabel('X position')
     ax.set_ylabel('Y position')
-    if not is_error:
-        ax.scatter(x, y, c='red', s=10, label='Complete data')
-        ax.scatter(x_incomplete, y_incomplete, c='gray', s=10, alpha=0.5, label='Incomplete data')
-        ax.legend()
 
+    ax.scatter(x, y, c='red', s=10, label='Complete data')
+    ax.scatter(x_incomplete, y_incomplete, c='gray', s=10, alpha=0.5, label='Incomplete data')
+    #ax.legend()
+    
     divider = make_axes_locatable(ax)
     cax = divider.append_axes("right", size="5%", pad=0.05)
     plt.colorbar(im, cax=cax)
@@ -64,12 +56,7 @@ def plot_heatmap(ax, zi, title, is_error=False):
 # Plot heatmaps
 plot_heatmap(axs[0, 0], zi_x, 'X FWHM / Theoretical')
 plot_heatmap(axs[0, 1], zi_y, 'Y FWHM / Theoretical')
-plot_heatmap(axs[0, 2], zi_z, 'Z FWHM / Theoretical')
-
-# Plot error heatmaps
-plot_heatmap(axs[1, 0], error_x, 'X Interpolation Error', True)
-plot_heatmap(axs[1, 1], error_y, 'Y Interpolation Error', True)
-plot_heatmap(axs[1, 2], error_z, 'Z Interpolation Error', True)
+plot_heatmap(axs[1, 0], zi_z, 'Z FWHM / Theoretical')
 
 plt.tight_layout(pad=10)
 plt.show()
