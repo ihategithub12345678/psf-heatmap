@@ -1,0 +1,314 @@
+Microscope info
+data		253 analysed images				
+images location		/Users/oggsc/Documents/OM/ImageAnalysis/QC/Elyra/PSFs/20241014/63X_1_4/525/				
+Actual image depth		16				
+Microscope type		WideField				
+Objective	NA	1.4				
+	im. refractive index	1.518				
+Channel(s)		Wavelengths		unsaturated/total images	sampling (X,Y,Z)	
+		Ex. (nm)	Em. (nm)		Nyquist (µm)	correctly sampled/total images
+Channel 0			525.0	all ok	0.094x0.094x0.282	(all ok, all ok, all ok)
+
+Average resolutions values
+		X	Y	Z
+Channel 0	average FWHM (µm)	0.233	0.234	0.573
+	FWHM std dev (µm)	0.008	0.008	0.046
+	theoretical value (µm)	0.191	0.191	0.72
+	number of beads	235	240	241
+	mean R2 value	1.0	1.0	0.99
+	mean SBR value	13.61		
+
+Measured/theoretical resolution ratios and lateral asymmetry ratios:
+Channel	X ratio	Y ratio	Z ratio	Lateral Asymmetry
+Channel 0	1.22	1.22	0.8	1.0
+
+Analysis parameters
+Tool & Operator	Tool	Batch PSF Profiler
+	Versions	MetroloJ_QC v1.3.1.1, ImageJ v2.14.0/1.54f, Java v1.8.0_322, OS Mac OS X
+	Operator & date	SO, October 25, 2024 2:36 PM
+data	result folder	/Users/oggsc/Documents/OM/ImageAnalysis/QC/Elyra/PSFs/20241014/63X_1_4/525/Processed/63X_1_4_525/
+	Type of saved data	.pdf, .jpg, .xls
+	Input data bit depth	16
+Dimension order		XY-(C)Z
+Discard saturated samples		false
+Beads	Bead detection threshold	Legacy
+	Center detection method	Legacy Maximum Intensity
+	Discard bead if more than one particle are thresholded	true
+	Background annulus thickness in µm	0.5
+	Background annulus distance to bead edges in µm	0.5
+	Multiple beads in image	true
+	Bead identification method	Using Find Maxima (prominence of 1000.0)
+	Bead size (µm)	0.1
+	Bead crop Factor	5.0
+	Cropped ROI size in µm	2.31x2.31 (using bead size & background annulus parameters)
+Square Root PSF Image displayed		true
+Tolerance	Applied in this report	true
+	X & Y FWHM ratios valid if below	1.5
+	Z FWHM ratio valid if below	2.0
+Measurement rejected	Outliers	true (using IQR)
+	R2 ratio below	0.95
+
+Analysis log
+image name	creation date	sampling density	identified raw beads	valid beads	saturation	status
+Image 8	2024-10-17 10:22:23	correct	90	38	none	valid beads found
+	bead0				none	analysed
+	bead1				none	analysed
+	bead2				none	analysed
+	bead3				none	analysed
+	bead4				none	analysed
+	bead5				none	analysed
+	bead6				none	analysed
+	bead7				none	analysed
+	bead8				none	analysed
+	bead9				none	analysed
+	bead10				none	analysed
+	bead11				none	analysed
+	bead12				none	analysed
+	bead13				none	analysed
+	bead14				none	analysed
+	bead15				none	analysed
+	bead16				none	analysed
+	bead17				none	analysed
+	bead18				none	analysed
+	bead19				none	analysed
+	bead20				none	analysed
+	bead21				none	analysed
+	bead22				none	analysed
+	bead23				none	analysed
+	bead24				none	analysed
+	bead25				none	analysed
+	bead26				none	analysed
+	bead27				none	analysed
+	bead28				none	analysed
+	bead29				none	analysed
+	bead30				none	analysed
+	bead31				none	analysed
+	bead32				none	analysed
+	bead33				none	analysed
+	bead34				none	analysed
+	bead35				none	analysed
+	bead36				none	analysed
+	bead37				none	analysed
+Image 9	2024-10-17 10:22:24	correct	243	60	none	valid beads found
+	bead0				none	analysed
+	bead1				none	analysed
+	bead2				none	analysed
+	bead3				none	analysed
+	bead4				none	analysed
+	bead5				none	analysed
+	bead6				none	analysed
+	bead7				none	analysed
+	bead8				none	analysed
+	bead9				none	analysed
+	bead10				none	analysed
+	bead11				none	analysed
+	bead12				none	analysed
+	bead13				none	analysed
+	bead14				none	analysed
+	bead15				none	analysed
+	bead16				none	analysed
+	bead17				none	analysed
+	bead18				none	analysed
+	bead19				none	analysed
+	bead20				none	analysed
+	bead21				none	analysed
+	bead22				none	analysed
+	bead23				none	analysed
+	bead24				none	analysed
+	bead25				none	analysed
+	bead26				none	analysed
+	bead27				none	analysed
+	bead28				none	analysed
+	bead29				none	analysed
+	bead30				none	analysed
+	bead31				none	analysed
+	bead32				none	analysed
+	bead33				none	analysed
+	bead34				none	analysed
+	bead35				none	analysed
+	bead36				none	analysed
+	bead37				none	analysed
+	bead38				none	analysed
+	bead39				none	analysed
+	bead40				none	analysed
+	bead41				none	analysed
+	bead42				none	analysed
+	bead43				none	analysed
+	bead44				none	analysed
+	bead45				none	analysed
+	bead46				none	analysed
+	bead47				none	analysed
+	bead48				none	analysed
+	bead49				none	analysed
+	bead50				none	analysed
+	bead51				none	analysed
+	bead52				none	analysed
+	bead53				none	analysed
+	bead54				none	analysed
+	bead55				none	analysed
+	bead56				none	analysed
+	bead57				none	analysed
+	bead58				none	analysed
+	bead59				none	analysed
+Image 10	2024-10-17 10:22:15	correct	137	54	Ch.0 saturated	valid beads found
+	bead0				none	analysed
+	bead1				none	analysed
+	bead2				none	analysed
+	bead3				none	analysed
+	bead4				none	analysed
+	bead5				none	analysed
+	bead6				none	analysed
+	bead7				none	analysed
+	bead8				none	analysed
+	bead9				none	analysed
+	bead10				none	analysed
+	bead11				none	analysed
+	bead12				none	analysed
+	bead13				none	analysed
+	bead14				none	analysed
+	bead15				none	analysed
+	bead16				none	analysed
+	bead17				none	analysed
+	bead18				none	analysed
+	bead19				none	analysed
+	bead20				none	analysed
+	bead21				none	analysed
+	bead22				none	analysed
+	bead23				none	analysed
+	bead24				none	analysed
+	bead25				none	analysed
+	bead26				none	analysed
+	bead27				none	analysed
+	bead28				none	analysed
+	bead29				none	analysed
+	bead30				none	analysed
+	bead31				none	analysed
+	bead32				none	analysed
+	bead33				none	analysed
+	bead34				none	analysed
+	bead35				none	analysed
+	bead36				none	analysed
+	bead37				none	analysed
+	bead38				none	analysed
+	bead39				none	analysed
+	bead40				none	analysed
+	bead41				none	analysed
+	bead42				none	analysed
+	bead43				none	analysed
+	bead44				none	analysed
+	bead45				none	analysed
+	bead46				none	analysed
+	bead47				none	analysed
+	bead48				none	analysed
+	bead49				none	analysed
+	bead50				none	analysed
+	bead51				none	analysed
+	bead52				none	analysed
+	bead53				none	analysed
+Image 7	2024-10-17 10:22:21	correct	81	46	none	valid beads found
+	bead0				none	analysed
+	bead1				none	analysed
+	bead2				none	analysed
+	bead3				none	analysed
+	bead4				none	analysed
+	bead5				none	analysed
+	bead6				none	analysed
+	bead7				none	analysed
+	bead8				none	analysed
+	bead9				none	analysed
+	bead10				none	analysed
+	bead11				none	analysed
+	bead12				none	analysed
+	bead13				none	analysed
+	bead14				none	analysed
+	bead15				none	analysed
+	bead16				none	analysed
+	bead17				none	analysed
+	bead18				none	analysed
+	bead19				none	analysed
+	bead20				none	analysed
+	bead21				none	analysed
+	bead22				none	analysed
+	bead23				none	analysed
+	bead24				none	analysed
+	bead25				none	analysed
+	bead26				none	analysed
+	bead27				none	analysed
+	bead28				none	analysed
+	bead29				none	analysed
+	bead30				none	analysed
+	bead31				none	analysed
+	bead32				none	analysed
+	bead33				none	analysed
+	bead34				none	analysed
+	bead35				none	analysed
+	bead36				none	analysed
+	bead37				none	analysed
+	bead38				none	analysed
+	bead39				none	analysed
+	bead40				none	analysed
+	bead41				none	analysed
+	bead42				none	analysed
+	bead43				none	analysed
+	bead44				none	analysed
+	bead45				none	analysed
+Image 6	2024-10-17 10:22:20	correct	12	10	none	valid beads found
+	bead0				none	analysed
+	bead1				none	analysed
+	bead2				none	analysed
+	bead3				none	analysed
+	bead4				none	analysed
+	bead5				none	analysed
+	bead6				none	analysed
+	bead7				none	analysed
+	bead8				none	analysed
+	bead9				none	analysed
+Image 4	2024-10-17 10:22:18	correct	23	18	none	valid beads found
+	bead0				none	analysed
+	bead1				none	analysed
+	bead2				none	analysed
+	bead3				none	analysed
+	bead4				none	analysed
+	bead5				none	analysed
+	bead6				none	analysed
+	bead7				none	analysed
+	bead8				none	analysed
+	bead9				none	analysed
+	bead10				none	analysed
+	bead11				none	analysed
+	bead12				none	analysed
+	bead13				none	analysed
+	bead14				none	analysed
+	bead15				none	analysed
+	bead16				none	analysed
+	bead17				none	analysed
+Image 5	2024-10-17 10:22:19	correct	19	11	none	valid beads found
+	bead0				none	analysed
+	bead1				none	analysed
+	bead2				none	analysed
+	bead3				none	analysed
+	bead4				none	analysed
+	bead5				none	analysed
+	bead6				none	analysed
+	bead7				none	analysed
+	bead8				none	analysed
+	bead9				none	analysed
+	bead10				none	analysed
+Image 1	2024-10-17 10:22:14	correct	1	1	none	valid beads found
+	bead0				none	analysed
+Image 2	2024-10-17 10:22:16	correct	15	15	none	valid beads found
+	bead0				none	analysed
+	bead1				none	analysed
+	bead2				none	analysed
+	bead3				none	analysed
+	bead4				none	analysed
+	bead5				none	analysed
+	bead6				none	analysed
+	bead7				none	analysed
+	bead8				none	analysed
+	bead9				none	analysed
+	bead10				none	analysed
+	bead11				none	analysed
+	bead12				none	analysed
+	bead13				none	analysed
+	bead14				none	analysed
