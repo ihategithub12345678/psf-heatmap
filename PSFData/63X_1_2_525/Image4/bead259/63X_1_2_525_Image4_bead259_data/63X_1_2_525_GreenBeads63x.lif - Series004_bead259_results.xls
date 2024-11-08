@@ -1,0 +1,51 @@
+Microscope info
+Image		GreenBeads63x.lif-Series004_bead259					
+image's creation	date	2024-10-26 09:47:32					
+	method used	from file creation date					
+Actual image depth		12					
+Microscope type		WideField					
+Objective	NA	1.2					
+	im. refractive index	1.333					
+Channel(s)		Wavelengths		Saturation	sampling (X,Y,Z)		
+		Ex. (nm)	Em. (nm)		Nyquist (µm)	Found (µm)	Nyquist/found ratio
+Channel 0			525.0	none	0.109x0.109x0.349	0.103x0.103x0.099	0.9, 0.9, 0.3
+Bead original coordinates(in pixels)		958.0, 859.0					
+
+Resolution
+Channel	Sig/Backgnd ratio	Dimension	Measured FWHM (µm)	theory (µm)	Fit Goodness	Mes./theory ratio
+Channel 0 (em. 525.0nm)	1.5	X	0.253	0.223	1.0	1.13
+		Y	0.277	0.223	0.99	1.24
+		Z	0.844	0.86	0.98	0.98
+
+Lateral Asymmetry
+Channel	Ratio
+Channel 0 (em. 525.0nm)	0.92
+
+Analysis parameters
+Tool & Operator	Tool	PSF Profiler (batch)
+	Versions	MetroloJ_QC v1.3.1.1, ImageJ v2.14.0/1.54f, Java v1.8.0_322, OS Mac OS X
+	Operator & date	SO, October 31, 2024 8:19 AM
+data	result folder	/Users/oggsc/Documents/OM/ImageAnalysis/QC/Thunder/PSF/20241015/63X_1_2_525//Processed/63X_1_2_525/GreenBeads63x.lif - Series004/bead259/
+	Type of saved data	.pdf, .jpg, .xls
+	Input data bit depth	12
+Dimension order		XY-(C)Z
+Discard saturated samples		true
+Beads	Bead detection threshold	Legacy
+	Center detection method	Legacy Maximum Intensity
+	Discard bead if more than one particle are thresholded	true
+	Background annulus thickness in µm	0.5
+	Background annulus distance to bead edges in µm	0.5
+	Multiple beads in image	true
+	Bead identification method	Using Find Maxima (prominence of 50.0)
+	Bead size (µm)	0.1
+	Bead crop Factor	5.0
+	Cropped ROI size in µm	2.31x2.31 (using bead size & background annulus parameters)
+	Bead rejection distance to top/bottom   	2.0 µm
+Square Root PSF Image displayed		true
+Tolerance	Applied in this report	true
+	X & Y FWHM ratios valid if below	1.5
+	Z FWHM ratio valid if below	2.0
+
+Analysis log
+image name	creation date	saturation	sampling density	status
+GreenBeads63x.lif - Series004_bead259	2024-10-26 09:47:32	none	correct	analysed
