@@ -1,8 +1,8 @@
 ,X,Y,Z
-Average FWHM,0.236,1.747,0.699
-Standard deviation FWHM,0.041,18.216,1.724
+Average FWHM,0.233,0.233,0.572
+Standard deviation FWHM,0.008,0.008,0.047
 Theoretical FWHM,0.191,0.191,0.72
-Average mes/theory FWHM ratio,1.232,9.135,0.971
-Standard deviation mes/theory FWHM ratio,0.214,95.248,2.396
-Average lateral asymmetry ratio,0.96,0.96,0.96
-Standard deviation lateral asymmetry ratio,0.101,0.101,0.101
+Average mes/theory FWHM ratio,1.218,1.22,0.795
+Standard deviation mes/theory FWHM ratio,0.041,0.043,0.065
+Average lateral asymmetry ratio,0.976,0.976,0.976
+Standard deviation lateral asymmetry ratio,0.022,0.022,0.022
